@@ -23,7 +23,7 @@ const features = [
   },
   {
     name: 'GC/GLOW Mission Trips',
-    href: 'https://www.streamsoflight.net/',
+    href: 'https://www.streamsoflight.net/usa-mission-trips/',
     description:
       'A weeklong blitz of a major Michigan city with one goal: Distribute as much literature as humanly possible.',
     icon: BoltIcon,
@@ -78,7 +78,7 @@ export default function Main() {
         
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
                 className="h-8 w-auto"
@@ -116,7 +116,7 @@ export default function Main() {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  src="favicon.ico"
                   alt=""
                 />
               </a>
@@ -229,7 +229,7 @@ export default function Main() {
         <div id='subscribe' className="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y- lg:max-w-none lg:grid-cols-2">
-                <div className="max-w-xl lg:max-w-lg">
+                <div className="max-w-xl lg:max-w-lg mb-20">
                   <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Get updates on our progress.</h2>
                   <p className="mt-4 text-lg leading-8 text-gray-300">
                     We'll share powerful testimonies, exciting reports from youth-led literature evangelism, and updates on our progress towards 4 million homes reached.
@@ -270,7 +270,7 @@ export default function Main() {
                   {post.date}
                 </time>
                 <a
-                  href={post.href}
+                  href={post.href} target="_blank"
                   className="mt-3 font-semibold text-white text-lg"
                 >
                   {post.title}
@@ -308,7 +308,7 @@ export default function Main() {
                 Contribute to our Literature Fund.
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-              For every $10 you donate, we'll ensure at least 40 homes are reached with Adventist literature through our Pathfinder, local church, and GLOW mission trip projects. Thank you for your contribution!
+              For every $10 you donate, over 40 homes will be reached with Adventist literature through our Pathfinder, local church, and GLOW mission trip projects. Thank you for your contribution!
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-center">
                 <a
@@ -325,26 +325,6 @@ export default function Main() {
             
           </div>
           </div> 
-          <footer class="bg-white rounded-lg  shadow dark:bg-gray-900 m-4">
-      <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div class="sm:flex sm:items-center sm:justify-between">
-            <a href="https://www.misda.org/departments/literature-ministries" class="flex items-center mb-4 sm:mb-0">
-                <img src="favicon.ico" class="h-8 mr-3" alt="Publishing Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">MISDA Literature Ministries</span>
-            </a>
-            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-                <li>
-                    <a href="https://www.misda.org/departments/literature-ministries" class="mr-4 hover:underline md:mr-6 ">About</a>
-                </li>
-                <li>
-                    <a href="mailto:youthrush@misda.org" class="hover:underline">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://misda.org/" class="hover:underline">Michigan Conference of Seventh-day Adventists</a>. All Rights Reserved.</span>
-    </div>
-</footer>
     </div>
     
     
