@@ -1,7 +1,7 @@
 import { AcademicCapIcon, HomeIcon, BoltIcon, CheckBadgeIcon } from '@heroicons/react/24/outline'
 import App from './components/map'
 import Stats from './components/stats'
-import DrawerForm from './components/drawer'
+
 
 
 const features = [
@@ -63,8 +63,6 @@ export default function Main() {
 
   return (
     <div className="bg-white">
-      < Form/>
-      
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div className="mx-auto max-w-6xl py-10 sm:py-10 lg:py-10 ">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center my-40 sm:my-20 mb-30">
