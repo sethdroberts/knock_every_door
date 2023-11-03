@@ -8,6 +8,7 @@ const navigation = [
   { name: 'Pathfinder Literature Impact', href: 'pathfinder-literature-impact' },
   { name: 'Literature Impact Day', href: 'literature-impact-day' },
   { name: 'Access Pre-Made Maps', href: 'maps' },
+  { name: 'Report Territory Completed', href: '#maps'}
 ]
 
 export default function Header() {
