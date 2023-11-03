@@ -3,7 +3,6 @@ import Church_Render from './church_render'
 import clientPromise from "lib/mongo/index"
 import Head from 'next/head';
 import Header from '../components/header'
-import Footer from '../components/footer'
 
 export default async function Run() {
 
@@ -23,11 +22,6 @@ export default async function Run() {
 
 
   const churches = await LoadData();
-  //console.log("this church:", churches)
-   
-// const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
-// const [forminput, setFormInput] = useState('');
 
   return (
       <body>
@@ -52,7 +46,6 @@ export default async function Run() {
   </div>
 </div>
 </main>
-      <Footer />
       </body>
   )
 }

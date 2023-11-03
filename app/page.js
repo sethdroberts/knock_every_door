@@ -1,9 +1,4 @@
-// "use client";
-// import { useState } from 'react'
-// import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { AcademicCapIcon, HomeIcon, BoltIcon, CheckBadgeIcon } from '@heroicons/react/24/outline'
-import Link from 'next/link';
 
 
 const features = [
@@ -62,7 +57,6 @@ const posts = [
 
 
 export default function Main() {
- // const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <div className="bg-white">
