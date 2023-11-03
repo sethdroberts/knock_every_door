@@ -7,7 +7,7 @@ import DrawerForm from './drawer'
 
 
 const App = () => {
-    var GMAPS_API_KEY = 'AIzaSyDCWVqi8Pi-z4wTGEdIA4UmAycdGYQxcCE'
+    var GMAPS_API_KEY = process.env.GMAPS_API_KEY
     const { isLoaded } = useLoadScript({
       googleMapsApiKey: GMAPS_API_KEY,
     });
