@@ -7,9 +7,8 @@ import DrawerForm from './drawer'
 
 
 const App = () => {
-    var GMAPS_API_KEY = process.env.GMAPS_API_KEY
     const { isLoaded } = useLoadScript({
-      googleMapsApiKey: GMAPS_API_KEY,
+      googleMapsApiKey: 'AIzaSyDCWVqi8Pi-z4wTGEdIA4UmAycdGYQxcCE',
     });
     const center = useMemo(() => ({ lat: 44.52043, lng: -85.856743 }), []);
 
