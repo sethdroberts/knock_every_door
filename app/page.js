@@ -1,5 +1,5 @@
 import { AcademicCapIcon, HomeIcon, BoltIcon, CheckBadgeIcon } from '@heroicons/react/24/outline'
-
+import App from './map'
 
 const features = [
   {
@@ -60,6 +60,9 @@ export default function Main() {
 
   return (
     <div className="bg-white">
+      <div className='my-20'>
+        < App />
+      </div>
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div className="mx-auto max-w-6xl py-10 sm:py-10 lg:py-10 ">
