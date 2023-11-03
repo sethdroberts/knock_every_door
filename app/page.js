@@ -1,7 +1,6 @@
 import { AcademicCapIcon, HomeIcon, BoltIcon, CheckBadgeIcon } from '@heroicons/react/24/outline'
 import App from './components/map'
 import Stats from './components/stats'
-import Form from './components/report_form'
 import DrawerForm from './components/drawer'
 
 
