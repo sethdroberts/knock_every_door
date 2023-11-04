@@ -75,7 +75,7 @@ export default function Main() {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-8xl font-bold tracking-normal text-gray-900 sm:text-8xl">
+            <h1 className="text-8xl font-bold tracking-normal text-gray-900 sm:text-6xl">
               Knock every door in Michigan by 2028
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">

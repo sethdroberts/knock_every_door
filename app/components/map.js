@@ -26,7 +26,7 @@ const App = () => {
 
     return (
       <div id="maps" className='my-5'>
-        <h2 class="text-center text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Michigan-Wide Live Territory Tracker</h2>
+        <h2 class="text-center text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Michigan-Wide Live Territory Tracker (coming soon)</h2>
 
         <div className="mb-10 mt-10 flex items-center justify-center gap-x-6">
         < DrawerForm/>

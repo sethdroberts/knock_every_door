@@ -17,14 +17,14 @@ export default function Page() {
                 The next Literature Impact Day will be on April 13, 2024.
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-              We'll be adding more details here soon. In the meantime, we recommend the <a href="https://www.streamsoflight.net/church-training-resources/" target="_blank" className="underline hover:font-bold">Streams of Light training resources</a> as a good place to start preparing for this outreach.
+              We invite you to join churches all across Michigan for a conference-wide literature evangelism outreach. To get your church on board, follow the steps in our "outreach in a box" guide to participating in Literature Impact Day.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-center">
                 <a
-                href="https://www.streamsoflight.net/church-training-resources/" target="_blank"
+                href="quick-start"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                View Training Materials
+                Access "Outreach in a Box"
               </a>
               < Link href="/" className="text-sm font-semibold leading-6 text-gray-900">
                 Return home<span aria-hidden="true">→</span>
