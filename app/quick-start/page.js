@@ -42,7 +42,7 @@ approval. If so, skip straight to Step 2.</p>
 <ul className="list-disc mt-6 text-lg leading-8 text-gray-600">
 <li>Date for event. (If you’re participating in <a href="https://www.knockeverydoorinmichigan.com/pathfinder-literature-impact" className="underline hover:font-bold">Pathfinder Literature Impact</a> or <a href="https://www.knockeverydoorinmichigan.com/literature-impact-day" className="underline hover:font-bold">Literature Impact Day</a>, make sure your event is held on the conference-wide event date.)</li>
 <li>Church flyers to promote during outreach (e.g. an upcoming cooking class, etc.)</li>
-<li><em>If church does <strong>not</strong> have sharing books available:</em> Approval to purchase <em>Outreach in a Box</em> kits for $20. (Each box = materials for 90 homes).<a href="#one" className="underline hover:font-bold">[1]</a></li>
+<li><em>If church does <strong>not</strong> have sharing books available:</em> Approval to purchase <em>Outreach in a Box</em> kits. (Each box = materials for 90 homes).<a href="#one" className="underline hover:font-bold">[1]</a></li>
 <li><em>If church has sharing books available:</em> Access to church literature to distribute<a href="#two" className="underline hover:font-bold">[2]</a></li>
 </ul>
 <p className="mt-6 text-lg leading-8 text-gray-600"><strong>Template church board proposal</strong>: Coming soon</p>
